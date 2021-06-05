@@ -1,0 +1,41 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.bgimg-1,.bgimg-2,.bgimg-3{
+    opacity: 0.7;/*0-1 -ig mehet*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /*ide még jön beállítás*/
+}
+
+.bgimg-1{
+    background-image: url(../images/bfoldvar.jpg);
+    min-height: 100%;
+}
+
+.bgimg-2{
+    background-image: url(../images/eledes.jpg);
+    min-height: 100%;
+}
+.bgimg-3{
+    background-image: url(../images/nemetorszag.jpg);
+    min-height: 100%;
+}
+h3{
+    width: 80%;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    font-size: 36px;
+    color: rgb(32, 34, 33);
+}
+.div1,.div2,.div3{
+    background-color: aquamarine;
+    /*ide még jön beállítás*/
+}
+
